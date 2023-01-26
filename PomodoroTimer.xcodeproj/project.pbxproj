@@ -11,6 +11,8 @@
 		1AD3D2F6297ED66D009A38AA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD3D2F5297ED66D009A38AA /* ContentView.swift */; };
 		1AD3D2F8297ED66F009A38AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AD3D2F7297ED66F009A38AA /* Assets.xcassets */; };
 		1AD3D2FB297ED66F009A38AA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AD3D2FA297ED66F009A38AA /* Preview Assets.xcassets */; };
+		1AD3D304297ED8B6009A38AA /* PomodoroModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD3D303297ED8B6009A38AA /* PomodoroModel.swift */; };
+		1AD3D306297ED9A4009A38AA /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD3D305297ED9A4009A38AA /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		1AD3D2F5297ED66D009A38AA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1AD3D2F7297ED66F009A38AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1AD3D2FA297ED66F009A38AA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1AD3D303297ED8B6009A38AA /* PomodoroModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroModel.swift; sourceTree = "<group>"; };
+		1AD3D305297ED9A4009A38AA /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,8 @@
 		1AD3D2F2297ED66D009A38AA /* PomodoroTimer */ = {
 			isa = PBXGroup;
 			children = (
+				1AD3D302297ED893009A38AA /* ViewModel */,
+				1AD3D301297ED88C009A38AA /* View */,
 				1AD3D2F3297ED66D009A38AA /* PomodoroTimerApp.swift */,
 				1AD3D2F5297ED66D009A38AA /* ContentView.swift */,
 				1AD3D2F7297ED66F009A38AA /* Assets.xcassets */,
@@ -65,6 +71,22 @@
 				1AD3D2FA297ED66F009A38AA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1AD3D301297ED88C009A38AA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1AD3D305297ED9A4009A38AA /* Home.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1AD3D302297ED893009A38AA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1AD3D303297ED8B6009A38AA /* PomodoroModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +159,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AD3D304297ED8B6009A38AA /* PomodoroModel.swift in Sources */,
 				1AD3D2F6297ED66D009A38AA /* ContentView.swift in Sources */,
+				1AD3D306297ED9A4009A38AA /* Home.swift in Sources */,
 				1AD3D2F4297ED66D009A38AA /* PomodoroTimerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
